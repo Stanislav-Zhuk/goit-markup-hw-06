@@ -625,6 +625,7 @@ footer {
 	transition: outline var(--anim-fast);
 }
 
+.subscription-field:hover,
 .subscription-field:focus {
 	outline-color: var(--accent-color);
 }
@@ -914,6 +915,7 @@ footer {
 	transition: outline var(--anim-fast);
 }
 
+.modal-form-field:hover,
 .modal-form-field:focus {
 	outline-color: var(--accent-color);
 }
@@ -927,6 +929,7 @@ footer {
 	transition: fill var(--anim-fast);
 }
 
+.modal-form-field:hover + .modal-form-icon,
 .modal-form-field:focus + .modal-form-icon {
 	fill: var(--accent-color);
 }
@@ -951,6 +954,7 @@ footer {
 	transition: outline var(--anim-fast);
 }
 
+.modal-form-message:hover,
 .modal-form-message:focus {
 	outline-color: var(--accent-color);
 }
